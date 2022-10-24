@@ -34,7 +34,7 @@ const main = MCFunction('main', () => {
   give('@a', 'minecraft:diamond')
 })
 
-MCFunction('callMainThreeTimes', () => {
+MCFunction('call_main_three_times', () => {
   main()
   main()
   main()
@@ -47,7 +47,7 @@ This will result in the following functions:
 say This is the main function
 give @a minecraft:diamond
 
-# default:callMainThreeTimes
+# default:call_main_three_times
 function default:main
 function default:main
 function default:main
