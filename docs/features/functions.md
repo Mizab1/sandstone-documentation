@@ -184,6 +184,8 @@ MCFunction('minimal', async () => {...})
 
 Second, we await the `sleep` function
 
+**Note: When using the `async` function, all of the relational and positional context are forgotten**
+
 ### Example
 
 You could simulate a dialog like this:
